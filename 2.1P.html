@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Title -->
+    <title>Brayden</title>
+
+    <!-- Responsive design meta tag. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Internal Style Sheet. -->
+    <style>
+        body {
+            background-color: lightblue;
+        }
+        .internal-style {
+            color: red;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        @media only screen and (max-width: 600px) {
+            body {
+                background-color: lightpink;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Brayden de Koning 1.1P</h1>
+    <p>Make the Screen Smaller for Pink Background. 600px width exactly.</p>
+    <p>Open Console for JS Examples</p>
+
+    <script>
+        // String.
+        var str = "Hello World!";
+        console.log(str.length); // Length.
+        console.log(str.toUpperCase()); // Uppercase.
+        console.log(str.toLowerCase()); // Lowercase.
+        console.log(str.indexOf("World")); // Index of string.
+        console.log(str.replace("World", "Universe")); // Replace.
+
+        // Number.
+        var num = 123.456;
+        console.log(num.toFixed(2)); // Fixing decimal place.
+        console.log(num.toExponential()); // Exponential notation.
+        console.log(Number.isInteger(num)); // Check if integer.
+        console.log(Number.parseFloat("123.45")); // Parse float.
+        console.log(Number.parseInt("123")); // Parse integer.
+
+        // Array.
+        var arr = [1, "apple", 3, "banana"];
+        console.log(arr.length); // Length.
+        console.log(arr.join(", ")); // Join.
+        console.log(arr.push("cherry")); // Push.
+        console.log(arr.pop()); // Pop.
+        console.log(arr.reverse()); // Reverse.
+
+        // Date.
+        var date = new Date();
+        console.log(date.getFullYear()); // year.
+        console.log(date.getMonth()); // month.
+        console.log(date.getDate()); // day.
+        console.log(date.getHours()); // hours.
+        console.log(date.toDateString()); // Convert to string.
+
+        // Function
+        function Hello(name) {
+            return "Hello, " + name + "!";
+        }
+        console.log(Hello("Brayden")); // Call function with Name Brayden.
+
+        var bye = function() {
+            return "bye";
+        };
+        console.log(bye()); // Call function.
+    </script>
+</body>
+</html>
